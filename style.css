@@ -1,0 +1,92 @@
+body {
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 125%;
+}
+p {
+    font-family: sans-serif;
+}
+h1.top-title {
+    text-shadow: 1px 1px 0 #cccccc, 2px 2px 0 #cccccc, 3px 3px 0 #444444, 4px 4px 0 #444444, 5px 5px 0 #444444, 6px 6px 0 #444444;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    transition: all 0.12s ease-out;
+    font-size: 3rem;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+@media (min-width: 76rem) {
+    h1.top-title {
+        font-size: 10rem;
+    }
+}
+h1.top-title:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    max-width: 90%;
+}
+div.band {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.color--primary {
+    background-color: hsla(360, 100%, 100%, 0.8);
+    color: #010101;
+    color: hsla(0, 0%, 5%, 0.8);
+}
+.color--secondary {
+    /* thanks to: cssportal.com/css-gradient-generator/ */
+    background-image: -ms-linear-gradient(left, #008599 0%, #00A372 100%);
+    background-image: -moz-linear-gradient(left, #008599 0%, #00A372 100%);
+    background-image: -o-linear-gradient(left, #008599 0%, #00A372 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #008599), color-stop(100, #00A372));
+    background-image: -webkit-linear-gradient(left, #008599 0%, #00A372 100%);
+    background-image: linear-gradient(to right, #008599 0%, #00A372 100%);
+    color: #ffffff;
+    color: hsla(360, 100%, 100%, 1.0);
+}
+.btn {
+    padding: 1rem;
+    font-size: 14px;
+    background-color: #bbbbbb;
+    color: #dd4713;
+    box-shadow: 1px 1px 2px #111111;
+    text-decoration: none;
+    font-family: monospace;
+}
+@media (min-width: 76rem) {
+    .btn {
+        font-size: 1.5rem;
+    }
+}
+.btn:hover {
+    background-color: #cccccc;
+    color: #dd5713;
+    box-shadow: 1px 1px 5px #222222;
+}
+.date {
+    font-size: 24px;
+    font-family: monospace;
+}
+footer {
+    text-align: left;
+}
+img {
+    max-width: 90%;
+}
